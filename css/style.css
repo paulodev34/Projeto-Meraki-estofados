@@ -139,9 +139,8 @@ header ul a {
   padding-top: 100%;
   background-color: #ccc;
   border: 5px solid white;
-  /*
-	background-image: url('../');
-	*/
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
 /**fim do mosaico**/

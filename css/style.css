@@ -18,6 +18,7 @@
 html,
 body {
   height: 100%;
+  background-color: #4b4b4b;
 }
 /* modo escuro aplicar depois 
 #checkbox{
@@ -69,7 +70,8 @@ body {
 /*Header do site*/
 
 header {
-  padding: 20px 2%;
+  padding: 15px 2%;
+  background-color: #98a5ae;
 }
 
 header .logo img {
@@ -109,6 +111,7 @@ header nav.menu-desktop {
 }
 
 header nav.menu-desktop ul {
+  margin-top: 15px;
   padding: 8px 0;
   list-style-type: none;
 }
@@ -121,24 +124,29 @@ header nav.menu-desktop ul li {
 }
 
 header ul a {
-  color: #b4b4b4;
+  color: white;
   text-decoration: none;
 }
 
 /*fim do header*/
 
+.mosaico {
+  width: 1100px;
+  padding-left: 400px;
+}
+
 .mosaico-single {
   float: left;
-  width: calc(100% / 6);
+  width: 60%;
 }
 
 /**Mosaico**/
 
 .img-mosaico-single {
-  width: 100%;
+  width: 500px;
   padding-top: 100%;
   background-color: #ccc;
-  border: 5px solid white;
+  border: 3px solid #576975;
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
@@ -235,21 +243,20 @@ section.perfil-container .texto-perfil h2 {
 }
 
 section.perfil-container .texto-perfil p {
-  color: #4b4b4b;
+  color: white;
   font-size: 14px;
   padding-top: 8px;
 }
 
 section.videos {
-  padding: 50px 0;
+  padding: 40px 0;
 }
 
 section.videos .box-video {
-  float: left;
-  width: 33.3%;
+  left: 330px;
+  width: 50.8%;
   position: relative;
   border: 5px solid white;
-  padding-top: calc(33.3% * 0.6);
 }
 
 section.videos iframe {
@@ -269,8 +276,8 @@ section.Tratamentos .Tratamentos-container {
   width: 33.3%;
 }
 
-section.Tratamentos h2 {
-  color: #698293;
+section.Tratamentos h1 {
+  color: white;
   text-align: center;
   font-size: 18px;
 }
@@ -285,7 +292,7 @@ section.Tratamentos .container {
 
 .Tratamento-single h2 {
   font-size: 18px;
-  color: #737373;
+  color: white;
 }
 
 .Tratamento-single p {
@@ -380,11 +387,14 @@ section.depoimentos .depoimento-single {
 /****************************/
 
 @media screen and (max-width: 1024px) {
-  .img-mosaico-single-social {
-    width: calc(100% / 6);
-    padding-top: calc(100% / 6);
+  .mosaico {
+    width: 100px;
   }
-  .mosaico-social > div:nth-last-of-type(1n + 7) {
+  .img-mosaico-single-social {
+    width: calc(50% / 1);
+    padding-top: calc(100% / 1);
+  }
+  .mosaico-social > div:nth-last-of-type(1n + 1) {
     display: none;
   }
 }

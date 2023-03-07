@@ -8,21 +8,8 @@ function nextSlide() {
   slides[currentSlide].classList.add("active");
 }
 
-/*function previousSlide() {
-  slides[currentSlide].classList.remove("active");
-  currentSlide = (currentSlide - 1 + slides.length) % slides.length;
-  slides[currentSlide].classList.add("active");
-}
-
-function nextSlide() {
-  slides[currentSlide].classList.remove("active");
-  currentSlide = (currentSlide + 1) % slides.length;
-  slides[currentSlide].classList.add("active");
-}
-
 function gotoSlide(n) {
   slides[currentSlide].classList.remove("active");
   currentSlide = n;
   slides[currentSlide].classList.add("active");
 }
-*/

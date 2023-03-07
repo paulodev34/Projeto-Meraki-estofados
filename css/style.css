@@ -130,7 +130,7 @@ header ul a {
 
 /*fim do header*/
 
-.mosaico {
+/*.mosaico {
   width: 1100px;
   padding-left: 400px;
 }
@@ -140,7 +140,7 @@ header ul a {
   width: 60%;
 }
 
-/**Mosaico**/
+
 
 .img-mosaico-single {
   width: 500px;
@@ -150,16 +150,17 @@ header ul a {
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
-
+*/
 .slideshow-container {
   position: relative;
-  height: 450px;
-  width: 520px;
+  height: 430px;
+  width: 1100px;
   overflow: hidden;
 }
 
 .slide {
   position: absolute;
+  padding-left: 200px;
   top: 0;
   left: 0;
   width: 100%;
@@ -174,7 +175,7 @@ header ul a {
 
 .slide img {
   width: 100%;
-  height: 100%;
+  height: 150%;
   object-fit: cover;
 }
 
@@ -253,9 +254,9 @@ section.perfil-container .perfil-wraper2 {
 }
 
 section.perfil-container .img-perfil {
-  width: 40%;
+  width: 55%;
   height: 100%;
-  background-image: url("../imagens/meraki10.jpeg");
+  background-image: url("../imagens/meraki.jpeg");
   background-size: 100% 100%;
 }
 
@@ -280,7 +281,7 @@ section.videos {
 }
 
 section.videos .box-video {
-  left: 330px;
+  left: 320px;
   width: 50.8%;
   position: relative;
   border: 5px solid white;

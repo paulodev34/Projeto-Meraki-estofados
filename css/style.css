@@ -285,7 +285,7 @@ section.perfil-container .texto-perfil {
 }
 
 section.perfil-container .texto-perfil h2 {
-  color: #698293;
+  color: #25282a;
   font-size: 18px;
 }
 
@@ -412,7 +412,7 @@ section.depoimentos .depoimento-single {
   float: left;
   width: calc(100% / 9);
   padding-top: calc(100% / 9);
-  background-color: aqua;
+  background-color: rgb(0, 179, 255);
   border: 6px solid white;
 }
 

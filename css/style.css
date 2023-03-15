@@ -18,7 +18,7 @@
 html,
 body {
   height: 100%;
-  background-color: #7a7a7a;
+  background-color: white;
 }
 /* modo escuro aplicar depois 
 #checkbox{
@@ -301,7 +301,7 @@ section.perfil-container .texto-perfil h2 {
 }
 
 section.perfil-container .texto-perfil p {
-  color: white;
+  color: black;
   font-size: 14px;
   padding-top: 8px;
 }
@@ -314,7 +314,7 @@ section.videos .box-video {
   left: 320px;
   width: 50.8%;
   position: relative;
-  border: 5px solid white;
+  border: 5px solid gray;
 }
 
 section.videos iframe {
@@ -335,7 +335,7 @@ section.Tratamentos .Tratamentos-container {
 }
 
 section.Tratamentos h1 {
-  color: white;
+  color: black;
   text-align: center;
   font-size: 18px;
 }
@@ -350,13 +350,13 @@ section.Tratamentos .container {
 
 .Tratamento-single h2 {
   font-size: 18px;
-  color: white;
+  color: black;
 }
 
 .Tratamento-single p {
   padding: 10px 0;
   font-size: 13px;
-  color: #b4b4b4;
+  color: #8b8b8b;
 }
 
 section.depoimentos > h2 {

@@ -33,7 +33,7 @@ body.dark {
 
 header {
   padding: 15px 2%;
-  background-color: #98a5ae;
+  background-color: #576975;
 }
 
 header .logo img {
@@ -86,7 +86,7 @@ header nav.menu-desktop ul li {
 }
 
 header ul a {
-  color: black;
+  color: white;
   text-decoration: none;
 }
 
@@ -271,6 +271,10 @@ section.perfil-container .texto-perfil p {
   padding-top: 8px;
 }
 
+section.perfil-container img {
+  width: 50px;
+}
+
 section.videos {
   padding: 40px 0;
 }
@@ -379,6 +383,10 @@ section.depoimentos .depoimento-single {
   font-size: 13px;
 }
 
+.instagram-chamada img {
+  width: 50px;
+}
+
 .mosaico-social {
   float: left;
   width: 100%;
@@ -405,6 +413,9 @@ section.depoimentos .depoimento-single {
   color: white;
   padding: 10px 0;
   font-size: 13px;
+}
+.facebook-chamada img {
+  width: 50px;
 }
 
 /****************************/

@@ -20,54 +20,16 @@ body {
   height: 100%;
   background-color: white;
 }
-/* modo escuro aplicar depois 
-#checkbox{
-	display: none;
-}
-
-.toggler{
-	display: block;
-	width: 60px;
-	height: 31px;
-	border: 2px solid #b4b4b4;
-	border-radius: 30px;
-	position: relative;
-	cursor: pointer;
-	background-color: #392c54;
-}
-
-.ball,.sun,.moon{
-	position: absolute;
-	top: 50%;
-		background-color: #392c54;
-	transform: translateY(-50%);
-}
-
-.ball{
-	display: inline-block;
-	width: 25px;
-	height: 25px;
-	background-color: #b4b4b4;
-	border-radius: 50%;
-	left: 1px;
-	z-index: 10;
-	transition: transform;
-}
-
-.sun{
-	left: 5px;
-}
-
-.moon{
-	right: 5px;
-}
-
-#checkbox:checked + .ball{
-	transform: translate(29px, -50%);
-}
-*/
-
-/*Header do site*/
+/*
+body.dark {
+  --main-bg: #00071d;
+  --item-hover: #1c2339;
+  --secondary-bg: #36415e;
+  --main-container-bg: #131c31;
+  --text-color: #fff;
+  --tooltip-bg: #251d33;
+  --container-shadow: rgba(#131c31, 0.2) 0px 7px 29px 0px;
+}*/
 
 header {
   padding: 15px 2%;
@@ -197,16 +159,19 @@ header ul a {
   top: 50%;
   transform: translateY(-50%);
   left: 1000px;
+  width: 5px;
+  height: 50px;
+  border: none;
 }
 
 .botaoedireita {
   left: auto;
-  right: 30px;
+  right: 0;
 }
 
 .botaoesquerda {
   right: auto;
-  left: 230px;
+  left: 240px;
 }
 
 /**fim do Slider**/

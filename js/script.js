@@ -23,7 +23,7 @@ function plusDivs(n) {
 
 function showDivs(n) {
   var i;
-  var x = document.getElementsByClassName("slideshow-container");
+  var x = document.getElementsByClassName("slider");
   if (n > x.length) {
     slideIndex = 1;
   }

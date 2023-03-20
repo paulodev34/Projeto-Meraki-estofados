@@ -388,7 +388,7 @@ section.depoimentos .depoimento-single {
   display: inline-block;
 }
 
-.mosaico-social {
+/*.mosaico-social {
   float: left;
   width: 100%;
 }
@@ -400,27 +400,30 @@ section.depoimentos .depoimento-single {
   background-color: rgb(0, 179, 255);
   border: 6px solid white;
 }
-
+*/
 .mapa {
   float: left;
   width: 100%;
   text-align: center;
   padding: 40px 0;
   background: #576975;
-  left: 50px;
-  top: 20px;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background: white;
-  border: 5px solid rgb(200, 200, 200);
 }
 
 .mapa h2 {
-  line-height: 23px;
+  line-height: 20px;
   color: white;
   padding: 10px 0;
-  font-size: 13px;
+  font-size: 25px;
+}
+
+.gmap_canvas {
+  left: 330px;
+  top: 0;
+  position: relative;
+  width: 50%;
+  height: 80%;
+  background: white;
+  border: 5px solid rgb(156, 155, 155);
 }
 
 /****************************/

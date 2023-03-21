@@ -13,7 +13,7 @@ function gotoSlide(n) {
   currentSlide = n;
   slides[currentSlide].classList.add("active");
 }
-
+/*
 var slideIndex = 1;
 showDivs(slideIndex);
 
@@ -35,3 +35,4 @@ function showDivs(n) {
   }
   x[slideIndex - 1].style.display = "block";
 }
+*/
